@@ -1,3 +1,5 @@
+# Time Complexity = O(n)
+
 # Importing the libraries to be used
 import numpy as np
 
@@ -23,11 +25,6 @@ def validate(cid, name, zip_code, date, amt, other):
         return False
 
     return True
-
-
-# This method stores the positively validated record into dictionaries
-def store_input(inp):
-    pass
 
 
 # This method calculates the required fields whenever a repeating donor is found
